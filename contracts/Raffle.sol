@@ -171,4 +171,9 @@ error Raffle__UpkeepNotNeeded(uint256 currentBalance, uint256 numPlayers, uint25
 
     function getRequestConfirmations() public pure returns(uint256){
         return REQUEST_CONFIRMATION;}
+
+    function getInterval() public view returns(uint256){
+        return i_interval;
+    }
+
 }
