@@ -12,7 +12,7 @@ const verify = async (contractAddress, args) => {
         })
     } catch (e) {
         if (e.message.toLowerCase().includes("already verified")) {
-            console.log("Already verified!")
+            console.log("Already Verified!")
         } else {
             console.log(e)
         }
